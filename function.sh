@@ -8,7 +8,20 @@ quit (){
     exit
 }
 
-Hello
+#Hello
+
+#echo "fooday"
+
+
+function print(){
+    echo $1 $2 # passing an arguments
+}
+
+quit (){
+    exit
+}
+
+print Hello Robert
 
 echo "fooday"
 
