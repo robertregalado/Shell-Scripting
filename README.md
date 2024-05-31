@@ -76,3 +76,18 @@
   - deb to RPM:
     `alien -r <package-name>.deb`
 
+### Updating deb-based Linux
+- Command  line: `apt`
+- `$ sudo apt update`
+- `$ sudo apt upgrade`
+
+### Updating RPM-based Linux
+- Command line: `yum`
+- `$ sudo yum update`
+
+### Installing new software
+- Installing a deb package with apt:
+  - `$ sudo apt install <package-name>`
+- Installing an RPM package with yum:
+  - sudo yum install <package-name>
+
